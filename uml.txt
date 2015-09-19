@@ -500,5 +500,27 @@ note top of Петриченко
 <img:https://scontent-ams3-1.xx.fbcdn.net/hprofile-frc3/v/t1.0-1/c0.3.80.80/p80x80/947134_10201201600987991_646676659_n.jpg?oh=174696cbdee72a1abae80f58c5447dc4&oe=56A6F405>
 end note
 
+
+note top of Лебедева
+
+<img:https://scontent-ams3-1.xx.fbcdn.net/hprofile-xpf1/v/t1.0-1/c0.14.80.80/p100x100/11902449_1162762520406880_5044470631362566108_n.jpg?oh=ddd62daf6016bd96c1a487b95ee6b1ee&oe=569A4493>
+end note
+
+ 
+
+
+note top of Мага
+
+<img:https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c136.29.368.368/s80x80/295970_187340574674688_33220145_n.jpg?oh=1858a4a5061a64a616289cfc4710bf0a&oe=566B2747&__gda__=1452910476_e4bcae64063165c703647efb8589f5a1>
+end note
+
+legend right
+Немного об истории и правилах заполнения данной схемы
+<img:http://content.screencast.com/users/ProfitService.RU/folders/Jing/media/bff682d8-e927-42ef-89f1-a1544c9eaef3/2015-09-19_2027.png>
+end legend
+
+
+
+
 @enduml 
 
