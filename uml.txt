@@ -20,7 +20,7 @@ skinparam usecase {
 	ActorFontName Courier
 
 	ActorBackgroundColor<< Human >> Gold
-}
+} 
 
 
 
