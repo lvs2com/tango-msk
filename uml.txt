@@ -524,11 +524,10 @@ skinparam usecase {
 :Русовский Дмитрий: as РусовскийДмитрий
 :Андрей Папин: as АндрейПапин
 
-
-
-
-
 :Мага Сергей и Гоголева Вера 2007 по 2013: as МагаГоголева
+
+:Московский "куст" Аргентинского танго : as Танго
+
 
 note top of Вистгоф
 <img:https://scontent-ams3-1.xx.fbcdn.net/hprofile-ash2/v/t1.0-1/c46.46.578.578/s80x80/554864_10200881415101679_456234625_n.jpg?oh=ebcdb75c43dcb7b55e58434b5c0feace&oe=56ABAF07>
@@ -576,6 +575,11 @@ end legend
 note top of EscueladeTango
 
 <img:https://scontent-frt3-1.xx.fbcdn.net/hprofile-frc3/v/t1.0-1/c13.0.80.80/p80x80/576595_1432253363655052_1176470675_n.jpg?oh=b7ae35ea08fe71b66e1b25517afa3115&oe=56A16AAC>
+end note
+
+
+note top of (Танго)
+<img:https://chart.googleapis.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H|0&chl=http://goo.gl/FJWdFK>
 end note
 
 
