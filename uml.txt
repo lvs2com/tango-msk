@@ -574,12 +574,10 @@ end legend
 
 
 note top of EscueladeTango
-
 <img:https://scontent-frt3-1.xx.fbcdn.net/hprofile-frc3/v/t1.0-1/c13.0.80.80/p80x80/576595_1432253363655052_1176470675_n.jpg?oh=b7ae35ea08fe71b66e1b25517afa3115&oe=56A16AAC>
 end note
 
-
-note top of (Танго)
+note top of Танго
 <img:https://chart.googleapis.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H|0&chl=http://goo.gl/FJWdFK>
 end note
 
