@@ -346,6 +346,7 @@ skinparam usecase {
 
 
 ГусевВладимир--|> (EscueladeTango) 
+ГусевВладимир -->(EscueladeTango)  : основал
 Климова -->(EscueladeTango)  : преподает
 Львова -->(EscueladeTango)  : преподает
 Барсукова -->(EscueladeTango)  : преподает
@@ -494,6 +495,8 @@ skinparam usecase {
 
 :Полина Барсукова: as ПолинаБарсукова
 
+:Грубина Мария: as ГрубинаМария
+
 :Григорьева Олеся и Владислав Коваленко: as КоваленкоГригорьева
 :Владислав Коваленко: as Коваленко
 :Григорьева Олеся: as Григорьева
@@ -515,6 +518,8 @@ skinparam usecase {
 :Наташа Львова: as Львова
 :Ольга Барсукова: as Барсукова
 :Алексей Дульцев: as Дульцев
+:Русовский Дмитрий: as РусовскийДмитрий
+
 
 
 
@@ -563,6 +568,10 @@ legend right
 end legend
 
 
+note top of EscueladeTango
+
+<img:https://scontent-frt3-1.xx.fbcdn.net/hprofile-frc3/v/t1.0-1/c13.0.80.80/p80x80/576595_1432253363655052_1176470675_n.jpg?oh=b7ae35ea08fe71b66e1b25517afa3115&oe=56A16AAC>
+end note
 
 
 @enduml 
