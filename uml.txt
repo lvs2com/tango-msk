@@ -60,6 +60,7 @@ skinparam usecase {
 (Аргтанго) << Школа >>
 (EscueladeTango) << Школа >>
 (GoTango) << Школа >>
+(Tangoformacion) << Школа >>
 
 (Танго) --|> Мать : 1998
 (Танго) --|> ДиегоАрисага: 2004 
