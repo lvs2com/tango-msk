@@ -517,6 +517,8 @@ skinparam usecase {
 
 :Александр Фролов и Мария Колюжная: as ФроловКолюжная
 
+:Мария Колюжная: as Колюжная
+
 
 note top of Вистгоф
 <img:https://scontent-ams3-1.xx.fbcdn.net/hprofile-ash2/v/t1.0-1/c46.46.578.578/s80x80/554864_10200881415101679_456234625_n.jpg?oh=ebcdb75c43dcb7b55e58434b5c0feace&oe=56ABAF07>
