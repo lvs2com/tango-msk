@@ -99,12 +99,64 @@ skinparam usecase {
 (GoTango) << Школа >>
 (Tangoformacion) << Школа >>
 
+(Casadeltango) << Школа >>
+
+(Tangomio) << Школа >>
+
+(Tangocity) << Школа >>
+(tangoasi) << Школа >>
+(elgato) << Школа >>
+(тангобезправил) << Школа >>
+(тангосалон) << Школа >>
+(efectotango) << Школа >>
+(dfusion) << Школа >>
+
+
+ВасинДима --> (dfusion)
+:[[www.dfusion.ru]]: as dfusion
+
+Майоров-->(efectotango)
+Хочолава-->(efectotango)
+::[[efectotango.ru]]: as efectotango
+
+
+ Петриченко--|> ВикторияЛизунова : 2007
+
+ВикторияЛизунова --|> (тангосалон)
+:[[tangosalon.ru]] : as тангосалон
+
+
+FedorAntsiferov-->(Tangomio)
+Зюзина-->(Tangomio)
+Дехтярева-->(Tangocity) 
+
+Петриченко --|> (tangoasi)
+
+ЕкатеринаКорнеева --> (тангобезправил)
+ДмитрийБеляев --> (тангобезправил)
+МайяВенгерцева --> (тангобезправил)
+АндрейКрылов --|> (тангобезправил)
+
+::[www.tango-bez-pravil.ru]]: as тангобезправил
+
+:[[www.elgatotango.ru]]: as elgato
+
+:[[www.casadeltango.ru]]: as Casadeltango
+:[[www.tangoasi.ru]]: as tangoasi
+:[[tangomio.ru]]: as Tangomio
+:[[www.tangocity.ru]]:as Tangocity
+
+Игнатов --|> (elgato)
+ЕкатеринаСамотей --> (elgato)
+
 (Танго) --|> Устинова : 1998
 (Танго) --|> ДиегоАрисага: 2004 
 
 Устинова --|> Вистгоф : 1998
 Устинова --|> Петриченко: 1998
 Устинова--|> Крупников : 2006
+
+Устинова--|>(Casadeltango)
 
 Устинова--|>(УстиноваКоптелова) :2001-2005
 Коптелова--|>(УстиноваКоптелова) :2001-2005
