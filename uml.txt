@@ -117,7 +117,7 @@ skinparam usecase {
 
 Майоров-->(efectotango)
 Хочолава-->(efectotango)
-::[[efectotango.ru]]: as efectotango
+:[[efectotango.ru]]: as efectotango
 
 
  Петриченко--|> ВикторияЛизунова : 2007
@@ -137,7 +137,7 @@ FedorAntsiferov-->(Tangomio)
 МайяВенгерцева --> (тангобезправил)
 АндрейКрылов --|> (тангобезправил)
 
-::[www.tango-bez-pravil.ru]]: as тангобезправил
+:[www.tango-bez-pravil.ru]]: as тангобезправил
 
 :[[www.elgatotango.ru]]: as elgato
 
@@ -654,13 +654,6 @@ note top of Танго
 <img:https://chart.googleapis.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H|0&chl=http://goo.gl/FJWdFK>
 end note
 
-note top of КапустаЗахарчук
-"В первые несколько лет вообще самой яркой парой,
-возникшей в танго, очень искренней,
-страстной и творческой, актерски одаренной
-парой были Наташа Захарчук и Олег Капуста."
-**Валя Устинова**
-end note
 
 
 @enduml 
