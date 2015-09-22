@@ -525,11 +525,6 @@ skinparam usecase {
 АлинаЗубкова--|> КотельниковЗубкова
 
 
-legend right
-Немного об истории и правилах заполнения данной схемы
-<img:http://content.screencast.com/users/ProfitService.RU/folders/Jing/media/bff682d8-e927-42ef-89f1-a1544c9eaef3/2015-09-19_2027.png>
-end legend
-
 
 note top of Танго
 <img:https://chart.googleapis.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H|0&chl=http://goo.gl/FJWdFK>
