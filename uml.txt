@@ -447,7 +447,7 @@ skinparam usecase {
 
 
 :[[www.facebook.com/ShkolaTango]]: as ХоревШкола
-:[[http://forum.gotango.ru/]]: as ФорумGoTango
+:[[forum.gotango.ru]]: as ФорумGoTango
 :Queer-tango: as qtango
 
 
