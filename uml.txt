@@ -26,6 +26,7 @@ skinparam usecase {
 (TangoMagia) << Клуб >>
 (Инби) <<Клуб>> 
 
+(ФорумGoTango) <<Проект>>
 
 (УстиноваКоптелова) << Пара >>
 (МайоровУстинова) << Пара >>
@@ -174,6 +175,8 @@ skinparam usecase {
 Устинова --|>МирошниченкоИрина: 2005
 
 
+
+ИвановСлава --|> (ФорумGoTango)
 
 
 Устинова --|> МотовиловаВера: 2005
@@ -444,6 +447,7 @@ skinparam usecase {
 
 
 :[[www.facebook.com/ShkolaTango]]: as ХоревШкола
+:[[http://forum.gotango.ru/]]: as ФорумGoTango
 :Queer-tango: as qtango
 
 
