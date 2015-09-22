@@ -99,6 +99,10 @@ skinparam usecase {
 (EscueladeTango) << Школа >>
 (GoTango) << Школа >>
 (Tangoformacion) << Школа >>
+(kotango) << Школа >>
+
+
+:[[www.ko-tango.com]]: as kotango 
 
 (Casadeltango) << Школа >>
 
@@ -268,7 +272,8 @@ FedorAntsiferov-->(Tangomio)
 
 Мага  --|> ПрищеповАлександр  :2008
 
-
+НадеждаКуликова --|>(kotango)
+КонышевРоман --|>(kotango)
 
 Мага--|>МагаГоголева
 Гоголева --|>МагаГоголева
@@ -612,7 +617,7 @@ FedorAntsiferov-->(Tangomio)
 :Сергей Царьков: as Царьков
 :Андрей Гусев: as ГусевАндрей
 :Анна Грибанова: as АннаГрибанова
-:Escuela de Tango: as EscueladeTango 
+:[[www.edtango.ru]]: as EscueladeTango 
 :Елена Климова: as Климова
 :Наташа Львова: as Львова
 :Ольга Барсукова: as Барсукова
