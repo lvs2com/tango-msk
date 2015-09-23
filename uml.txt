@@ -222,7 +222,7 @@ skinparam usecase {
 НадеждаКуликова --|>(kotango)
 КонышевРоман --|>(kotango)
 СалиенкоНазарова --|> (Tangoformacion)
-ДенисМизгирёв --|> ( TangoBravo)
+ДенисМизгирёв --|> (TangoBravo)
 Богдан --|> (Артлайф) 
 ИвановЛеонова--|>(GoTango)
 
