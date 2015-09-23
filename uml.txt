@@ -395,20 +395,27 @@ skinparam usecase {
 
 
 '=============================================================================================
-'Вынесли отдельно описания призеров
-'=============================================================================================
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-win
-
-'=============================================================================================
 'Вынесли отдельно описания школ
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-des-school
 
 '=============================================================================================
 
+@enduml 
+
+
+@startuml
+
+
+'=============================================================================================
+'Вынесли отдельно описания призеров
+'=============================================================================================
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-win
+
+
 'Вынесли отдельно имена танцоров
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-fio
-
-
-
 @enduml 
+
+
+
 
