@@ -6,10 +6,12 @@
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml.txt
 '=======================================================================
 
-'left to right direction
+left to right direction
 
 skinparam usecase {
 BackgroundColor<<Год>> Red
+BackgroundColor<<Школа>> Yellov
+BackgroundColor<<Клуб>> Yellov
 }
 
 
