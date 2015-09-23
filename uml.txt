@@ -1,12 +1,6 @@
 @startuml
 title  Это генеалогическое древо аргентинского танго Москвы ред. от 23.09.2015\n (исходные данные в текстовом файле [[https://goo.gl/mE9Qhv]] прямая ссылка на эту схему [[http://goo.gl/FJWdFK]] )  
 
-
-(Редакторы) <<Редакторы>>
-:Ирина Перетятько & Вадим Лебедевич: as Редакторы
-Редакторы-->  (www.facebook.com/lvs2com): все вопросы по схеме
-Редакторы --> (www.facebook.com/irina.peretyatko): а так же
-
 skinparam usecase {
 	BackgroundColor DarkSeaGreen
 	BorderColor DarkSlateGray
@@ -203,7 +197,7 @@ FedorAntsiferov-->(Tangomio)
 Устинова--|> Крупников : 2006
 
 
-(Танго) --|> ДиегоАрисага: 2004 
+(2004) --|> ДиегоАрисага: 2004 
 
 Устинова--|>(Casadeltango)
 
