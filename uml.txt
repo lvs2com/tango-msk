@@ -165,8 +165,9 @@ skinparam usecase {
 :[[tangosalon.ru]] : as тангосалон
 
 
-FedorAntsiferov-->(Tangomio)
-Зюзина-->(Tangomio)
+Зюзина--|>(Tangomio)
+Вигдорова--|>(Tangomio)
+
 Дехтярева-->(Tangocity) 
 
 Петриченко --|> (tangoasi) : 2005 
