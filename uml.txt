@@ -109,6 +109,9 @@ skinparam usecase {
 (kotango) << Школа >>
 
 
+(перваягруппа) << Начало >>
+
+
 :[[www.ko-tango.com]]: as kotango 
 
 (Casadeltango) << Школа >>
