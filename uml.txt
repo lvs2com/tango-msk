@@ -694,11 +694,6 @@ FedorAntsiferov-->(Tangomio)
 :Пара Серж и Устинова Валя: as ПараУстинова
 
 
-legend right
-Немного об истории и правилах заполнения данной схемы
-<img:https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/img/manifest.png>
-end legend
-
 
 note top of Танго
 <img:https://chart.googleapis.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H|0&chl=http://goo.gl/FJWdFK>
