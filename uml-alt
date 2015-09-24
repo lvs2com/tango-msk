@@ -3,7 +3,10 @@
 '=======================================================================
 
 'Исходная схема
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml.txt
+'берем первый блок - без пар
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml.txt!0
+'включаем разобранные пары. важно! этот вайл заполняется параллельно с файлом пар!!!
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-dis-pair
 '=======================================================================
 
 'left to right direction
