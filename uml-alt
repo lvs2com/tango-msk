@@ -1,23 +1,43 @@
 @startuml
+title  Это генеалогическое древо аргентинского танго Москвы ред. от 24.09.2015\n (исходные данные в текстовом файле [[https://goo.gl/mE9Qhv]] прямая ссылка на эту схему [[http://goo.gl/FJWdFK]] )  
+
 ' Альтернативная версия с осью времени
 '=======================================================================
 
 'Исходная схема
 'берем первый блок - без пар
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml.txt!0
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml!0
+
 'включаем разобранные пары. важно! этот вайл заполняется параллельно с файлом пар!!!
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-dis-pair
 '=======================================================================
 
 'left to right direction
 
+'=======================================================================
+'Это служебный код для настроек отображения
+'=======================================================================
+
 skinparam usecase {
+
+ BackgroundColor DarkSeaGreen
+	BorderColor DarkSlateGray
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+	
+	ArrowColor Olive
+	ActorBorderColor black
+	ActorFontName Courier
+
+	ActorBackgroundColor<< Human >> Gold
+
 BackgroundColor<<Год>> Red
 'BackgroundColor<<Школа>> Yellow
 'BackgroundColor<<Клуб>> Yellow
 BackgroundColor<<Пара>> White
 }
-
+'=======================================================================
 
 (1998) <<Год>>
 (1999) <<Год>>
