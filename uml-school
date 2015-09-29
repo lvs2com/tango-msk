@@ -32,4 +32,7 @@
 (SoloTangoOrquesta) << Проект >>
 (ToTango)  <<Школа >>
 (ТангоКласс) <<Школа >>
+
+
+(ElTangodePlata) <<Школа >>
 @enduml 
