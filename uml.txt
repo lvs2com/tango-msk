@@ -23,10 +23,10 @@ skinparam usecase {
 
 
 'основные данные
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml!0
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml
 
 'пары
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml!1
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-para
 
 @endtuml
 
