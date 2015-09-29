@@ -642,7 +642,25 @@ var nodes = [
     nodes: nodes,
     edges: edges
   };
-  var options = {};
+    var options = {
+      // immediately start rendering the graph
+      stabilize: false,
+      // turn smooth curves off, faster
+      smoothCurves: false,
+      // specify a shape for all nodes
+      nodes: {
+        shape: 'triangle' // 'square', 'dot', 'triangle', 'triangleDown', 'star', etc...
+      },
+      // to get a menu with sliders to tune the physics constants:
+      //configurePhysics: true,
+      // tuned physics for this specific data set (stabilizes faster)
+      physics: {
+        barnesHut: {
+          gravitationalConstant: -4800,
+          springConstant: 0.5,
+          springLength: 50}
+      }
+    };
   var network = new vis.Network(container, data, options);
 </script>
 </body>
