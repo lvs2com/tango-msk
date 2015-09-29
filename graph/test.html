@@ -1,1 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tango-mos/Vis Basic Graph Example</title>
+  <style type="text/css">
+    body,
+    #mynetwork {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
 
+<div id="mynetwork"></div>
+
+<script src='../lib/vis.js'></script>
+<script>
+var edges = [
+{ from:51, to:112 }
+,
+{ from:38, to:133 }
+,
+{ from:38, to:32 }
+,
+{ from:38, to:91 }
+,
+{ from:133, to:107 }
+,
+{ from:141, to:123 }
+,
+{ from:133, to:141 }
+,
+{ from:126, to:33 }
+,
+{ from:126, to:137 }
+,
+{ from:126, to:29 }
+,
+{ from:126, to:61 }
+,
+{ from:126, to:42 }
+,
+{ from:126, to:63 }
+,
+{ from:126, to:20 }
+,
+{ from:126, to:52 }
+,
+{ from:126, to:49 }
+,
+{ from:126, to:71 }
+,
+{ from:126, to:27 }
+,
+{ from:126, to:138 }
+,
+{ from:126, to:6 }
+,
+{ from:126, to:81 }
+,
+{ from:126, to:135 }
+,
+{ from:71, to:135 }
+,
+{ from:126, to:90 }
+,
+{ from:108, to:28 }
+,
+{ from:95, to:58 }
+,
+{ from:133, to:9 }
+,
+{ from:51, to:54 }
+,
+{ from:51, to:55 }
+,
+{ from:51, to:48 }
+,
+{ from:126, to:31 }
+,
+{ from:126, to:38 }
+,
+{ from:126, to:30 }
+,
+{ from:126, to:99 }
+,
+{ from:126, to:96 }
+,
+{ from:126, to:108 }
+,
+{ from:126, to:25 }
+,
+{ from:126, to:73 }
+,
+{ from:126, to:105 }
+,
+{ from:31, to:140 }
+,
+{ from:31, to:19 }
+,
+{ from:31, to:110 }
+,
+{ from:31, to:43 }
+,
+{ from:31, to:45 }
+,
+{ from:31, to:60 }
+,
+{ from:108, to:43 }
+,
+{ from:108, to:46 }
+,
+{ from:126, to:93 }
+,
+{ from:126, to:136 }
+,
+{ from:126, to:104 }
+,
+{ from:126, to:15 }
+,
+{ from:126, to:14 }
+,
+{ from:126, to:36 }
+,
+{ from:80, to:39 }
+,
+{ from:80, to:77 }
+,
+{ from:80, to:12 }
+,
+{ from:80, to:34 }
+,
+{ from:80, to:88 }
+,
+{ from:80, to:111 }
+,
+{ from:126, to:94 }
+,
+{ from:51, to:109 }
+,
+{ from:132, to:109 }
+,
+{ from:31, to:89 }
+,
+{ from:31, to:1 }
+,
+{ from:31, to:4 }
+,
+{ from:31, to:92 }
+,
+{ from:4, to:3 }
+,
+{ from:80, to:100 }
+,
+{ from:51, to:24 }
+,
+{ from:51, to:132 }
+,
+{ from:51, to:115 }
+,
+{ from:51, to:37 }
+,
+{ from:51, to:53 }
+,
+{ from:24, to:106 }
+,
+{ from:45, to:11 }
+,
+{ from:46, to:69 }
+,
+{ from:46, to:79 }
+,
+{ from:46, to:18 }
+,
+{ from:46, to:79 }
+,
+{ from:46, to:10 }
+,
+{ from:91, to:56 }
+,
+{ from:80, to:5 }
+,
+{ from:24, to:128 }
+,
+{ from:24, to:22 }
+,
+{ from:24, to:101 }
+,
+{ from:31, to:122 }
+,
+{ from:126, to:2 }
+,
+{ from:31, to:129 }
+,
+{ from:51, to:118 }
+,
+{ from:51, to:116 }
+,
+{ from:132, to:116 }
+,
+{ from:51, to:75 }
+,
+{ from:116, to:75 }
+,
+{ from:31, to:85 }
+,
+{ from:80, to:23 }
+,
+{ from:80, to:86 }
+,
+{ from:80, to:68 }
+,
+{ from:80, to:86 }
+,
+{ from:80, to:72 }
+,
+{ from:30, to:45 }
+,
+{ from:80, to:84 }
+,
+{ from:95, to:84 }
+,
+{ from:63, to:21 }
+,
+{ from:77, to:21 }
+,
+{ from:63, to:121 }
+,
+{ from:77, to:121 }
+,
+{ from:63, to:7 }
+,
+{ from:77, to:7 }
+,
+{ from:32, to:102 }
+,
+{ from:34, to:102 }
+,
+{ from:31, to:0 }
+,
+{ from:108, to:0 }
+,
+{ from:31, to:80 }
+,
+{ from:108, to:80 }
+,
+{ from:31, to:47 }
+,
+{ from:108, to:47 }
+,
+{ from:31, to:114 }
+,
+{ from:108, to:114 }
+,
+{ from:31, to:35 }
+,
+{ from:108, to:35 }
+,
+{ from:31, to:41 }
+,
+{ from:108, to:41 }
+,
+{ from:41, to:70 }
+,
+{ from:80, to:70 }
+,
+{ from:41, to:119 }
+,
+{ from:80, to:119 }
+,
+{ from:41, to:95 }
+,
+{ from:80, to:95 }
+,
+{ from:41, to:78 }
+,
+{ from:80, to:78 }
+,
+{ from:41, to:44 }
+,
+{ from:80, to:44 }
+,
+{ from:41, to:120 }
+,
+{ from:80, to:120 }
+,
+{ from:41, to:26 }
+,
+{ from:80, to:26 }
+,
+{ from:41, to:65 }
+,
+{ from:80, to:65 }
+,
+{ from:119, to:76 }
+,
+{ from:95, to:76 }
+,
+{ from:119, to:97 }
+,
+{ from:95, to:97 }
+,
+{ from:140, to:64 }
+,
+{ from:129, to:64 }
+,
+{ from:140, to:87 }
+,
+{ from:129, to:87 }
+,
+{ from:140, to:103 }
+,
+{ from:129, to:103 }
+,
+{ from:140, to:8 }
+,
+{ from:129, to:8 }
+,
+{ from:140, to:113 }
+,
+{ from:129, to:113 }
+,
+{ from:63, to:17 }
+,
+{ from:27, to:17 }
+,
+{ from:63, to:16 }
+,
+{ from:27, to:16 }
+,
+{ from:2, to:74 }
+,
+{ from:49, to:74 }
+,
+{ from:2, to:83 }
+,
+{ from:49, to:83 }
+,
+{ from:2, to:82 }
+,
+{ from:49, to:82 }
+,
+{ from:2, to:134 }
+,
+{ from:49, to:134 }
+,
+{ from:2, to:139 }
+,
+{ from:49, to:139 }
+,
+{ from:2, to:98 }
+,
+{ from:49, to:98 }
+,
+{ from:2, to:62 }
+,
+{ from:49, to:62 }
+,
+{ from:50, to:131 }
+,
+{ from:61, to:131 }
+,
+{ from:87, to:40 }
+,
+{ from:64, to:40 }
+];
+var nodes = [
+{id:0, label: 'Neacat'}
+,
+{id:1, label: 'АджимянКарина'}
+,
+{id:2, label: 'АланЦаголов'}
+,
+{id:3, label: 'АлександрМикерин'}
+,
+{id:4, label: 'АлександрЧеренков'}
+,
+{id:5, label: 'АлександрШамсутдинов'}
+,
+{id:6, label: 'Алексеев'}
+,
+{id:7, label: 'АлинаЗубкова'}
+,
+{id:8, label: 'АнгелинаПриймяги'}
+,
+{id:9, label: 'АндрейКрылов'}
+,
+{id:10, label: 'АндрейПапин'}
+,
+{id:11, label: 'АннаГрибанова'}
+,
+{id:12, label: 'АннаСоколова'}
+,
+{id:14, label: 'АстаховаЕлена'}
+,
+{id:15, label: 'АстаховГеннадий'}
+,
+{id:16, label: 'БарашковскаяЮлия'}
+,
+{id:17, label: 'БарашковскийCергей'}
+,
+{id:18, label: 'Барсукова'}
+,
+{id:19, label: 'Богдан'}
+,
+{id:20, label: 'Боев'}
+,
+{id:21, label: 'Болотов'}
+,
+{id:22, label: 'БуреничеваЮля'}
+,
+{id:23, label: 'ВалентинХорбенко'}
+,
+{id:24, label: 'ВасинДима'}
+,
+{id:25, label: 'ВасяПрасолов'}
+,
+{id:26, label: 'Верещагин'}
+,
+{id:27, label: 'Вигдорова'}
+,
+{id:28, label: 'ВикторияЛизунова'}
+,
+{id:29, label: 'Вильвовская'}
+,
+{id:30, label: 'ВинниковВладимир'}
+,
+{id:31, label: 'Вистгоф'}
+,
+{id:32, label: 'ВистгофОльга'}
+,
+{id:33, label: 'ВладаЗахарова'}
+,
+{id:34, label: 'ВладЧерняков'}
+,
+{id:35, label: 'Волков'}
+,
+{id:36, label: 'ГавриловаАнна'}
+,
+{id:37, label: 'ГазизИбрагимов'}
+,
+{id:38, label: 'Гаранин'}
+,
+{id:39, label: 'Гоголева'}
+,
+{id:40, label: 'ГойденкоДина'}
+,
+{id:41, label: 'ГрубринаМария'}
+,
+{id:42, label: 'Гудовская'}
+,
+{id:43, label: 'Гуменюк'}
+,
+{id:44, label: 'Гуревич'}
+,
+{id:45, label: 'ГусевАндрей'}
+,
+{id:46, label: 'ГусевВладимир'}
+,
+{id:47, label: 'ДенисМизгирёв'}
+,
+{id:48, label: 'ДенисЦарев'}
+,
+{id:49, label: 'Дехтярева'}
+,
+{id:50, label: 'Джованни'}
+,
+{id:51, label: 'ДиегоАрисага'}
+,
+{id:52, label: 'Дитковская'}
+,
+{id:53, label: 'ДмитрийКаяфа'}
+,
+{id:54, label: 'ДмитрийКрупнов'}
+,
+{id:55, label: 'ДмитрийМуксинов'}
+,
+{id:56, label: 'Дульцев'}
+,
+{id:58, label: 'ЕкатеринаКорнеева'}
+,
+{id:60, label: 'ЗаславскаяТатьяна'}
+,
+{id:61, label: 'Зюзина'}
+,
+{id:62, label: 'ИвановЛеонид'}
+,
+{id:63, label: 'ИвановСлава'}
+,
+{id:64, label: 'ИвашечкинАлексей'}
+,
+{id:65, label: 'Игнатов'}
+,
+{id:68, label: 'КириллКузнецов'}
+,
+{id:69, label: 'Климова'}
+,
+{id:70, label: 'КонышевРоман'}
+,
+{id:71, label: 'Коптелова'}
+,
+{id:72, label: 'Короткая'}
+,
+{id:73, label: 'Крупников'}
+,
+{id:74, label: 'КукорминCемен'}
+,
+{id:75, label: 'КуркатовСергей'}
+,
+{id:76, label: 'Лебедева'}
+,
+{id:77, label: 'ЛеоноваОля'}
+,
+{id:78, label: 'Луговской'}
+,
+{id:79, label: 'Львова'}
+,
+{id:80, label: 'Мага'}
+,
+{id:81, label: 'МайоровДмитрий'}
+,
+{id:82, label: 'МайстренкоНаташа'}
+,
+{id:83, label: 'МандрабураБорис'}
+,
+{id:84, label: 'МаринаБолдырева'}
+,
+{id:85, label: 'МаринаПекарева'}
+,
+{id:86, label: 'МарияТягина'}
+,
+{id:87, label: 'МартиросоваМария'}
+,
+{id:88, label: 'МахаловВладимир'}
+,
+{id:89, label: 'МизгиревДенис'}
+,
+{id:90, label: 'МирошниченкоИрина'}
+,
+{id:91, label: 'Мистакиди'}
+,
+{id:92, label: 'Молокова'}
+,
+{id:93, label: 'МотовиловаВера'}
+,
+{id:94, label: 'НадеждаКуликова'}
+,
+{id:95, label: 'Назарова'}
+,
+{id:96, label: 'НатальяЗахарчук'}
+,
+{id:97, label: 'НатальяСухорукова'}
+,
+{id:98, label: 'НатальяФиногеева'}
+,
+{id:99, label: 'ОлегКапуста'}
+,
+{id:100, label: 'ОльгаКуликова'}
+,
+{id:101, label: 'ОмероваЭсмер'}
+,
+{id:102, label: 'ОтчайноваЛилия'}
+,
+{id:103, label: 'ОхотниковаНадежда'}
+,
+{id:104, label: 'ПапиловаЮлия'}
+,
+{id:105, label: 'Пара'}
+,
+{id:106, label: 'ПаршаковКирилл'}
+,
+{id:107, label: 'Перетятько'}
+,
+{id:108, label: 'Петриченко'}
+,
+{id:109, label: 'ПетроваНаталья'}
+,
+{id:110, label: 'Почукаева'}
+,
+{id:111, label: 'ПрищеповАлександр'}
+,
+{id:112, label: 'Равинская'}
+,
+{id:113, label: 'РадзишевскаяЯнина'}
+,
+{id:114, label: 'Рапанова'}
+,
+{id:115, label: 'Решетников'}
+,
+{id:116, label: 'РусланТахиров'}
+,
+{id:118, label: 'РусовскийДмитрий'}
+,
+{id:119, label: 'Салиенко'}
+,
+{id:120, label: 'Семинская'}
+,
+{id:121, label: 'СергейКотельников'}
+,
+{id:122, label: 'СергейШпаковский'}
+,
+{id:123, label: 'Тарасовы'}
+,
+{id:126, label: 'Устинова'}
+,
+{id:128, label: 'ФиненковаТасия'}
+,
+{id:129, label: 'Фридман'}
+,
+{id:131, label: 'ФроловАлександр'}
+,
+{id:132, label: 'Хорев'}
+,
+{id:133, label: 'Хочолава'}
+,
+{id:134, label: 'ЦаголоваДарья'}
+,
+{id:135, label: 'Царьков'}
+,
+{id:136, label: 'ЧерняковВлад'}
+,
+{id:137, label: 'Чичаева'}
+,
+{id:138, label: 'Чувилина'}
+,
+{id:139, label: 'ЮрийПанов'}
+,
+{id:140, label: 'Юхина'}
+,
+{id:141, label: 'ЯнаТарасова'}
+];
+
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+    var options = {
+      // immediately start rendering the graph
+      stabilize: false,
+      // turn smooth curves off, faster
+      smoothCurves: true,
+      // specify a shape for all nodes
+      //nodes: {
+      //  shape: 'triangle' // 'square', 'dot', 'triangle', 'triangleDown', 'star', etc...
+      //},
+      // to get a menu with sliders to tune the physics constants:
+      //configurePhysics: true,
+      // tuned physics for this specific data set (stabilizes faster)
+      physics: {
+        barnesHut: {
+          gravitationalConstant: -4800,
+          springConstant: 0.5,
+          springLength: 50}
+      }
+    };
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>
