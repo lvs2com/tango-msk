@@ -28,5 +28,18 @@ skinparam usecase {
 'пары
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-para
 
+
+
+'=============================================================================================
+'Вынесли отдельно описания школ
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-des-school
+
+'=============================================================================================
+
+
+'Вынесли отдельно имена танцоров
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-fio
+
+
 @endtuml
 
