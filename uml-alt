@@ -5,12 +5,24 @@ title  Это генеалогическое древо аргентинског
 '=======================================================================
 
 'Исходная схема
-'берем первый блок - без пар
-!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml!0
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml
 
 'включаем разобранные пары. важно! этот вайл заполняется параллельно с файлом пар!!!
 !includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-dis-pair
 '=======================================================================
+
+
+'=============================================================================================
+'Вынесли отдельно описания школ
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-des-school
+
+'=============================================================================================
+
+
+'Вынесли отдельно имена танцоров
+!includeurl https://raw.githubusercontent.com/LebedevichVadim/tango-msk/gh-pages/uml-fio
+
+
 
 'left to right direction
 
